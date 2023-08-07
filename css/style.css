@@ -86,6 +86,11 @@ p {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
+
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow:none;
     
 }
 
@@ -100,7 +105,7 @@ p {
     /* background-color: #4D4D4D; */
     background-color: #182538;
     padding-top: 70px;
-    /* padding-bottom: 100px; */
+    padding-bottom: 50px; 
 }
 
 /* .about-logo{
@@ -186,6 +191,11 @@ p {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
+
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow:none;
     
 }
 
@@ -202,7 +212,7 @@ p {
     /* background-color: #000000; */
     background-color: #182538;
     padding-top: 70px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .sk-head-underline{
@@ -287,7 +297,7 @@ p {
     /* background-color: #000000; */
     background-color: #182538;
     padding-top: 70px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 
@@ -444,6 +454,11 @@ p {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
+
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow:none;
     
 }
 
@@ -473,6 +488,11 @@ p {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
+
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow:none;
     
 }
 
@@ -481,3 +501,365 @@ p {
     color: #fff;
 }
 
+
+/* ======== Projects =============== */
+.Contact{
+    /* background-color: #000000; */
+    background-color: #182538;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.ct-head-underline{
+
+
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #19A598;
+    /* color: #FFFFF7; */
+
+    text-align: left;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.ct-head-underline::after{
+    content:"";
+    display:inline-block;
+    width: 150px;
+    height: 2.5px;
+    margin-left: 2px;
+    background-color: #FFFFF7;
+}
+
+
+.btn-submit,
+.btn-submit:focus,
+.btn-submit:active,
+.btn-submit:visited
+{
+    /* position:absolute; */
+    /* bottom: 30px; */
+    background: #19A598;
+    border-color: #19A598;
+    border-width: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    margin-right: 5px;
+
+
+    border-radius: 26px;
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow:none;
+    
+}
+
+.btn-submit:hover {
+    background-color: #19A598;
+    color: #fff;
+}
+
+.f-c-text{
+    border-color: #19A598;
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: #182538;
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    
+    /* color: #FFFFF7; */
+    /* padding-bottom: 1px;  */
+}
+
+.f-c-text:focus{
+    outline-width: 0;
+    background-color: #182538;
+    border-color: #19A598;
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow:none;
+
+}
+
+.f-c-text::placeholder{
+    /* color: #FFFFF7; */
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+
+.form-units{
+    padding-bottom: 10px;
+}
+.form-units-subject{
+    padding-bottom: 45px;
+}
+
+.form-units-message{
+    padding-bottom: 20px
+    
+}
+.form-units-btn{
+    text-align: right;
+}
+/* #message{
+    height: auto;
+} */
+
+.social-icons i{
+    font-size: 20px;
+    color: #FFFFF7;
+}
+
+
+
+/* .icon-box{
+    /* position: relative; */
+    /* text-align: center;
+} */
+
+/* .icon-wrapper{
+    text-align: center;
+} */ 
+
+.icon-feat{
+   
+    font-size: 40px;
+    color: #19A598;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    /* text-align: center; */
+    /* margin: 0;
+    position: absolute; */
+    /* top: 50%;
+    transform: translateY(-50%); */
+}
+
+.icon-text{
+    position: relative;
+    padding-left: 0px;
+    /* text-align: center;  */
+    /* vertical-align: middle; */
+    /* margin: 0 auto; */
+}
+
+.icon-text h3{
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    /* position: absolute; */
+    font-size: 18px;
+    
+    /* top: 0%; */
+
+    /* vertical-align: middle; */
+    /* text-align: center; */
+}
+
+/* .contact-table-view{
+    display: table;
+} */
+.contact-shorts{
+    /* display: grid; */
+    /* grid-auto-rows: 1fr; */
+    padding-top: 35px;
+    /* grid-auto-flow: column; */
+}
+
+/* .icon-wrapper{
+    background-color: #19A598;
+    text-align: center;
+    border-radius: 50px;
+} */
+.contact-table-view{
+    /* display: table-cell; */
+    padding-bottom: 20px;
+}
+
+
+
+/* ======== Work Experience =============== */
+.Experience{
+    /* background-color: #000000; */
+    background-color: #182538;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.experience-head-underline{
+
+
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #19A598;
+    /* color: #FFFFF7; */
+
+    text-align: left;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.experience-head-underline::after{
+    content:"";
+    display:inline-block;
+    width: 150px;
+    height: 2.5px;
+    margin-left: 2px;
+    background-color: #FFFFF7;
+}
+
+.exp{
+    padding-top: 25px;
+    padding-left: 0px;
+}
+
+.company-title h4{
+    color: #19A598;
+    font-family: 'Source Sans 3', sans-serif;
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
+
+.company-title h4>span{
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.role-title h4{
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 800;
+    
+}
+
+.role-title h4>span{
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.duration-title h4{
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 800;
+}
+
+.duration-title h4>span{
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.description-title h4{
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 800;
+}
+
+.description-title h4>span{
+    color: #FFFFF7;
+    font-family: 'Source Sans 3', sans-serif;
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* .company-head-underline::after{
+    content:"";
+    display:inline-block;
+    width: 150px;
+    height: 2.5px;
+    margin-left: 2px;
+    background-color: #FFFFF7;
+} */
+
+/* ======== Publications =============== */
+.Publication{
+    /* background-color: #000000; */
+    background-color: #182538;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.pub-head-underline{
+
+
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #19A598;
+    /* color: #FFFFF7; */
+
+    text-align: left;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.pub-head-underline::after{
+    content:"";
+    display:inline-block;
+    width: 150px;
+    height: 2.5px;
+    margin-left: 2px;
+    background-color: #FFFFF7;
+}
+
+
+.pub{
+    padding-top: 25px;
+}
+.pub h4{
+    color: #FFFFF7;
+    /* font-family: 'Source Sans 3', sans-serif; */
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.pub h4>a{
+    color:#19A598;
+    text-decoration: none;
+}
