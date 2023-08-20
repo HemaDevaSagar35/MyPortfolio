@@ -15,6 +15,7 @@
         <link rel="stylesheet" text="text/css" href="css/backgroundani.css">
         <link rel="stylesheet" text="text/css" href="css/font-awesome.min.css">
         <link rel="stylesheet" text="text/css" href="css/style.css">
+        <link rel="stylesheet" text="text/css" href="css/responsive.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,34 +23,69 @@
     
     </head>
     <body>
-        <header class="dataFlow">
-            
-                    <div class="container">
-                        <div class="container inner-container">
-                            <div class="row">
+        <header class="dataFlow" id = "Home">
 
-                                <div class="col-md-12">
+           
 
-                                    <div class="header-text">
-                                        <h4>Hello,</h4>
-                                        <h2>I'm <span>Hema Deva Sagar, Potala</span></h2>
-                                        <p>Machine Learning Engineer/Data Scientist</p>
-                                    </div>
-
-                                    <div class="header-btns">
-                                        <a class="btn btn-learn" href="#">Learn More</a>
-                                    </div>
-
-                                </div>
-
+            <nav class="navbar navbar-expand-lg fixed-top">
+               
+                    <div class="container nav-cont">
+                        <!-- <div class="container nav-cont">  -->
+                            <a class="navba-brand" href="#Home">
+                                <i class="fa fa-home"></i>
+                               
+                            </a>
+                        
+                            <button class="navbar-toggler pull-right custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#port-navbar-collapse-1" aria-controls="#port-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                            <div class="collapse navbar-collapse justify-content-end" id="port-navbar-collapse-1">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
+                                    <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+                                    <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+                                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                                    <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
+                                    <li class="nav-item"><a href="#Publication" class="nav-link">Publication</a></li>
+                                    <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+                                    
+                                    
+                                </ul>
+                            
                             </div>
+                        <!-- </div>  -->
+                    </div>
+              
+            </nav>
+
+                    
+            <div class="container header-container">
+                <div class="container inner-container">
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="header-text">
+                                <h4>Hello,</h4>
+                                <h2>I'm <span>Hema Deva Sagar, Potala</span></h2>
+                                <p>Machine Learning Engineer/Data Scientist</p>
+                            </div>
+
+                            <div class="header-btns">
+                                <a class="btn btn-learn" href="#">Learn More</a>
+                            </div>
+
                         </div>
 
                     </div>
+                </div>
+
+            </div>
             
         </header>
 
-        <section class="About">
+        <section class="About" id = "About">
 
             <div class="container">
 
@@ -104,7 +140,7 @@
 
         </section>
         <!-- experience section -->
-        <section class="Experience">
+        <section class="Experience" id = "Experience">
             <div class="container">
                 <div class="container inner-container">
 
@@ -218,7 +254,7 @@
 
         </section>
         <!-- Skills section -->
-        <section class="Skills">
+        <section class="Skills" id = "Skills">
             <div class="container">
                 <div class="container inner-container">
 
@@ -307,7 +343,7 @@
         </section>
 
 
-        <section class="Projects">
+        <section class="Projects" id = "Projects">
             <div class="container">
                 
                 <div class="container inner-container">
@@ -436,7 +472,7 @@
 
         </section>
 
-        <section class="Publication">
+        <section class="Publication" id = "Publication">
 
             <div class="container">
 
@@ -472,7 +508,7 @@
 
         </section>
         
-        <section class="Contact">
+        <section class="Contact" id = "Contact">
             <div class="container">
 
                 <div class="container inner-container">
@@ -594,5 +630,6 @@
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
     </body>
 </html>

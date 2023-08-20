@@ -25,8 +25,8 @@ p {
 }
 
 .inner-container{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .header-text h4{
@@ -862,4 +862,64 @@ p {
 .pub h4>a{
     color:#19A598;
     text-decoration: none;
+}
+
+
+/* ==== navigation ======== */
+
+.navbar-expand-lg{
+    background-color: black;
+    z-index: 110;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: white;
+    border-width: 2px;
+}
+
+.custom-toggler .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav > li > a {
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+
+}
+
+.navbar-nav > li > a:hover{
+    color: grey;
+}
+
+/* .navbar-nav{
+    text-align: right;
+} */
+/* .navba-brand{
+    margin-top: 10px;
+    padding: 20px 15px;
+} */
+
+.navba-brand i{
+    font-size: 45px;
+    color: #FFFFF7;
+}
+
+.nav-cont{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#port-navbar-collapse-1{
+    margin-right: 0;
+    margin-left: 0;
 }
